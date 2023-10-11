@@ -11,11 +11,11 @@ names[8]="laura";
 names[9]="jim";
 
 
-for (var i = 0; i < names.length; i++) {
-	if(names[i].charAt(0)==='J'|| names[i].charAt(0)==='j'){
-        console.log("Goodbye "+ names[i])
+for (var k = 0; k < names.length; k++) {
+	if(names[k].charAt(0)==='J'|| names[k].charAt(0)==='j'){
+        console.log("Goodbye "+ names[k])
 	}
 	else{
-		console.log("Hello "+ names[i])
+		console.log("Hello "+ names[k])
 	}
 }
